@@ -56,6 +56,7 @@
                 </div>
                 <div class="form-group" style="text-align: center;">
                     <div class="form-group" data-toggle="buttons">
+<%--                        active는 선택이 된 경우를 표시--%>
                         <label class="btn btn-primary active">
                             <input type="radio" name="userGender" autocomplete="off" value="남자" checked>남자
                         </label>

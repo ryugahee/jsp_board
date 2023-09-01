@@ -1,12 +1,12 @@
 package user;
-
+//java beans : 데이터를 관리하고 처리할 수 있는 기법을 jsp에서 구현하는 것
 public class User {
     private String userID;
     private String userPassword;
     private String userName;
     private String userGender;
     private String userEmail;
-    //get, set 추가하기
+    //jsp에서 사용할 수 있도록 함수를 만들어 준다 (getter, setter)
     public String getUserID() {
         return userID;
     }

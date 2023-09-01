@@ -1,11 +1,12 @@
 <%--UserDAO 클래스를 이용해서 실질적인 사용자의 로그인 시도를 처리--%>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ page import="user.UserDAO"%>
-<%--자바스크립트 문장을 사용하기 위한 것--%>
+<%--자바스크립트 문장을 작성하기 위한 것--%>
 <%@ page import="java.io.PrintWriter"%>
-<%@ page import="com.sun.jna.platform.win32.Netapi32Util" %>
+<%--<%@ page import="com.sun.jna.platform.win32.Netapi32Util" %>--%>
 <%--건너오는 모든 데이터를 UTF-8로 받음--%>
 <%request.setCharacterEncoding("UTF-8"); %>
+<%--현재 페이지 안에서만 beans가 사용되도록 함--%>
 <jsp:useBean id="user" class="user.User" scope="page"/>
 <jsp:setProperty name="user" property="userID"/>
 <jsp:setProperty name="user" property="userPassword"/>

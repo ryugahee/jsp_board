@@ -1,0 +1,20 @@
+===== 로그인 페이지 =====
+1. webapp 에 login.jsp 생성 >> 로그인 페이지 작성
+2. src > java > user 폴더 > User 클래스 생성 >> user table만들어서 java beans 구현
+3. src > java > user 폴더 > UserDAO 클래스 생성 >>
+    DAO : 데이터베이스 접근개체의 약자. 실질적으로 데이터베이스에서 회원정보를 불러오거나 넣고자 할때 사용
+4. webapp 에 loginAction.jsp 생성 >> UserDAO의 login 함수를 실제로 사용해서 사용자에게 로그인 결과를 알려주는 페이지 작성
+
+===== 회원가입 페이지 =====
+5. webapp 에 join.jsp 생성 >> 회원가입 페이지 작성
+
+
+
+
+
+
+
+
+
+
+
